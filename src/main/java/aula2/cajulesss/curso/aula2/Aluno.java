@@ -10,13 +10,24 @@ package aula2.cajulesss.curso.aula2;
  */
 public class Aluno {
     //Atributos
-    String nome;
+   private String nome;
+    
+    //Método construtor
+    public Aluno(String name){
+        this.setNome(name);
+    }
+    //Métodos acessores
+    public String isNome(){
+    return this.nome;
+    }
+    
+    public void setNome(String nome_do_aluno){
+        this.nome = nome_do_aluno;
+    }
     
     //Método:
-public void Retorna_nome_Aluno(){
+   public void Status_Aluno(){
+    System.out.println("Nome do aluno: "+ isNome());
     }
 }
 
-class Calculos{
-// Calcular a média
-}
