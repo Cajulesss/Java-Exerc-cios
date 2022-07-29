@@ -27,6 +27,7 @@ public class Jogo_Futebol {
         
         Jogador segunda_partida_futebol = new Jogador("Igor",3,45);
         segunda_partida_futebol.Status_da_partida();
+        System.out.println("\n");
         
         
         
